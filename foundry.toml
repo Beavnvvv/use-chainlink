@@ -3,4 +3,8 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[profile.sepolia]
+chain_id = 11155111
+url = "https://sepolia.infura.io/v3/${INFURA_API_KEY}"
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
